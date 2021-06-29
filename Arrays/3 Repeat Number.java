@@ -1,11 +1,14 @@
-Given a list of non negative integers, arrange them such that they form the largest number.
+You’re given a read only array of n integers. Find out if any integer occurs more than n/3 times in the array in linear time and constant additional space.
 
-For example:
+If so, return the integer. If not, return -1.
 
-Given [3, 30, 34, 5, 9], the largest formed number is 9534330.
+If there are multiple solutions, return any one.
 
-Note: The result may be very large, so you need to return a string instead of an integer.
-  
+Example :
+
+Input : [1 2 3 1 1]
+Output : 1 
+1 occurs 3 times which is more than 5/3 times. 
   
 
 public class Solution {
