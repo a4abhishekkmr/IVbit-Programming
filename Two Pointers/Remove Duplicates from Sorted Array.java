@@ -15,43 +15,19 @@ Your function should return length = 2, and A is now [1,2].
   
   public class Solution {
 	public int removeDuplicates(ArrayList<Integer> a) {
-        int l=0;
-        int h=1;
-        //int temp=h;
+                int i=0;
+        int j=0;
+
         int n=a.size();
-        int la=a.get(n-1);
-        int count=0;
-        while(h<n)
+        while(i<n)
         {
-            while(a.get(l)==a.get(h))
-            {count++;}
-             //list.subList(from, to).clear();
-            for(int i=0;i<count;i++)
-                {a.remove(i+l);
-                n--;}
-
-            if(h<n)
-                {l++;h=l+1;}
-            // else
-            // l++;
+            int x=a.get(i);
+            while(i<n && a.get(i)==x)
+            {
+                i++;
+            }
+                a.set(j++,x);
         }
-        for(int x:a)
-        System.out.println(x);
-        return a.size();
-
-        // int i=0;
-        // int j=0;
-
-        // int n=a.size();
-        // while(i<n)
-        // {
-        //     int x=a.get(i);
-        //     while(i<n && a.get(i)==x)
-        //     {
-        //         i++;
-        //     }
-        //         a.set(j++,x);
-        // }
-        // return j;
+        return j;
 	}
 }
