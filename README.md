@@ -1,5 +1,4 @@
 # IVbit-Programming
-<hr>
 ### To crack SDE Interviews... Needed Practice and it should be like this...
 
 <p align="center">
