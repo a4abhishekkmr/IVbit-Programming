@@ -7,7 +7,7 @@
 
 # InterviewBit-Topicwise-Solutions
 
-My solutions to algorithmic problems in [interviewbit](https://interviewbit.com) written in **C++**
+My solutions to algorithmic problems in [interviewbit](https://interviewbit.com) written in **java**
 
 ## What you can find in this repository
 
