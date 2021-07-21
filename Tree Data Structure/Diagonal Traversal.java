@@ -100,4 +100,7 @@ public class Solution {
         return al;
     }
 }
+<<<<<<< HEAD
 //TC=O(n)
+=======
+>>>>>>> dcfc1e021bd674ba638aaec23f0cdee4dc4b2ad6
